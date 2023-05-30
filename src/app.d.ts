@@ -5,7 +5,7 @@
 import type { Session } from '@auth/sveltekit/node_modules/@auth/core/types';
 
 declare global {
-	namespace App {
+	declare namespace App {
 		// interface Error {}
 		interface Locals {
 			session: Session;

@@ -6,8 +6,6 @@
 
 	let loggedOut: boolean;
 	$: loggedOut = Boolean($page.url.searchParams.get('loggedOut')) ?? false;
-
-	//put a let w for width here, then assign mb-X to links, remove "signed in as" and fix user photo
 </script>
 
 <div class="container h-4/5 mx-auto flex justify-center items-start">

@@ -1,8 +1,6 @@
 <script lang="ts">
-	import MasonryGallery from '$lib/scripts/Gallery/Masonry-Gallery.svelte';
-	import { FileButton, FileDropzone } from '@skeletonlabs/skeleton';
-	import * as A from 'fp-ts/Array';
-	import * as O from 'fp-ts/Option';
+	import { FileDropzone } from '@skeletonlabs/skeleton';
+	import * as O from 'fp-ts/lib/Option.js';
 	import { pipe } from 'fp-ts/lib/function';
 	import { enhance } from '$app/forms';
 	import UploadIcon from '$lib/uploadIcon.svelte';

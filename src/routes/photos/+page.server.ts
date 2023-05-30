@@ -1,9 +1,9 @@
 import { _getS3Image } from '$lib/scripts/s3/photoBucket';
 import type { PageServerLoad } from './$types';
 import dbServer from '../../lib/db.server';
-import * as A from 'fp-ts/Array';
-import * as E from 'fp-ts/Either';
-import * as TE from 'fp-ts/TaskEither';
+import * as A from 'fp-ts/lib/Array.js';
+import * as E from 'fp-ts/lib/Either.js';
+import * as TE from 'fp-ts/lib/TaskEither.js';
 import { pipe } from 'fp-ts/lib/function';
 import type { Image, PrismaPromise } from '@prisma/client';
 
