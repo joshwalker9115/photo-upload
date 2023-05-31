@@ -36,11 +36,11 @@
 </script>
 
 <div id="app">
-	<form method="post" action="?/upload" use:enhance>
+	<form method="post" action="?/upload" use:enhance class="mt-20 sm:mt-4">
 		<FileDropzone
 			name="file-upload"
 			multiple
-			class="my-4 w-80 sm:w-96"
+			class="w-80 sm:w-96"
 			enctype="multipart/form-data"
 			on:change={() => imageFromEvent()}
 			bind:files
